@@ -28,6 +28,7 @@ mkdir -p team-showcase/assets/js
 mkdir -p team-showcase/includes
 mkdir -p team-showcase/templates
 
+
 # Create root files
 touch team-showcase/team-showcase.php
 touch team-showcase/uninstall.php
@@ -46,3 +47,25 @@ touch team-showcase/includes/class-team-rest-controller.php
 
 # Create template file
 touch team-showcase/templates/team-showcase-grid.php
+
+
+==============================
+
+
+
+twentytwentyfive-child/
+├── style.css
+├── functions.php
+├── single-team_member.php
+└── assets/
+    ├── css/team-member.css
+    └── js/team-member.js
+
+
+
+    mkdir -p twentytwentyfive-child/assets/css twentytwentyfive-child/assets/js && \
+touch twentytwentyfive-child/style.css \
+      twentytwentyfive-child/functions.php \
+      twentytwentyfive-child/single-team_member.php \
+      twentytwentyfive-child/assets/css/team-member.css \
+      twentytwentyfive-child/assets/js/team-member.js

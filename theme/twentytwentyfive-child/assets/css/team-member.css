@@ -1,0 +1,53 @@
+.team-member-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.team-member-card {
+    text-align: center;
+}
+
+.team-member-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.team-member-role {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.team-member-image img {
+    max-width: 300px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.team-member-bio {
+    margin-top: 20px;
+}
+
+.team-member-full-bio {
+    display: none;
+    margin-top: 15px;
+}
+
+.team-member-full-bio.active {
+    display: block;
+}
+
+.toggle-bio-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.toggle-bio-btn:hover {
+    opacity: 0.85;
+}
